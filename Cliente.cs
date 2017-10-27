@@ -2,12 +2,12 @@ using System;
 
 namespace Ejercicio_Cuentas
 {
-    public class Clientes
+    public class Cliente
     {
-        public int DNI { get; set;}
-        public int Nombre { get; set;}
-        public int Apellido { get; set;}
-        public int Mail { get; set;}
+        public long DNI { get; set;}
+        public string Nombre { get; set;}
+        public string Apellido { get; set;}
+        public string Mail { get; set;}
         public int Telefono { get; set;}
         public DateTime Fecha_Nacimiento{ get; set;}
         
